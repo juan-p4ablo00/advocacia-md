@@ -1,7 +1,9 @@
-# Maria D'Ajuda Paulucio · Advocacia — site institucional
+# Helena Vasconcelos · Advocacia — site institucional (demonstrativo)
 
-Site estático do escritório **Maria D'Ajuda Paulucio Advogados Associados** (também
-**Carvalho & Paulucio Advogados Associados**), em Goianésia do Pará – PA.
+Site estático de demonstração para escritórios de advocacia. O escritório
+**Helena Vasconcelos Advogados Associados** (também **Vasconcelos & Andrade
+Advogados Associados**), a equipe, o telefone, o Instagram, o endereço e as fotos são
+**fictícios**: servem apenas para apresentar o modelo.
 
 HTML5, CSS3 e JavaScript puro. Não há build, framework nem dependência de npm:
 basta publicar a pasta como está.
@@ -11,7 +13,7 @@ basta publicar a pasta como está.
 ```
 .
 ├── index.html                  Home
-├── sobre.html                  Sobre nós (Dra. Maria, equipe, atualização profissional)
+├── sobre.html                  Sobre nós (advogada responsável, equipe, atualização profissional)
 ├── areas-de-atuacao.html       Áreas de atuação (Previdenciário em destaque + demais áreas)
 ├── blog.html                   Informativo (listagem com filtro por área)
 ├── blog/
@@ -30,7 +32,7 @@ basta publicar a pasta como está.
 
 | Token | Uso |
 |---|---|
-| `--ink` `#101318` | Preto da marca (monograma "MD") — textos, botões, rodapé |
+| `--ink` `#101318` | Preto da marca (monograma "HV") — textos, botões, rodapé |
 | `--navy` `#15223b` | Azul-marinho institucional — faixa de Direito Previdenciário |
 | `--paper` / `--paper-2` | Off-white e creme — fundos |
 | `--brass` / `--brass-dk` / `--brass-lt` | Dourado discreto: fios, rótulos e destaques em itálico |
@@ -73,16 +75,17 @@ cache longo para `/assets` e cabeçalhos de segurança.
 1. **Domínio:** substitua `https://seudominio.com.br` pelo domínio real em todos os
    arquivos (`*.html`, `blog/*.html`, `robots.txt`, `sitemap.xml`). Uma busca e
    substituição global resolve.
-2. **Registro na OAB:** inclua o número de inscrição da Dra. Maria (e da sociedade,
+2. **Registro na OAB:** inclua o número de inscrição da advogada responsável (e da sociedade,
    se houver) no rodapé, ao lado do nome do escritório.
 3. **Endereço e horário:** quando confirmados, acrescente-os em `contato.html`, no
    rodapé e no bloco JSON-LD (`address.streetAddress`, `openingHours`) do `index.html`.
-4. **Fotos:** as imagens atuais vieram do Instagram oficial e têm resolução baixa
-   (até 640 px). Substitua por fotos originais em alta, mantendo os mesmos nomes de
-   arquivo em `assets/img/` (retrato vertical ~1200×1760 px; demais quadradas ou 4:3).
-5. **Logotipo:** o monograma foi extraído da foto de perfil (150 px). Com o arquivo
-   vetorial (SVG/PDF) do logo, substitua `md-mark.png` e gere
-   novamente os favicons.
+4. **Fotos:** as imagens atuais são de banco de imagens (ver *Créditos*). Para um
+   cliente real, substitua por fotos do escritório mantendo os nomes de arquivo em
+   `assets/img/` (`advogada.jpg` vertical ~900×1325; `escritorio.jpg` quadrada;
+   `congresso.jpg` ~1000×850).
+5. **Logotipo:** o monograma fictício está em `assets/img/hv-mark.svg`. Troque pelo
+   logo do cliente (de preferência SVG) e gere novamente os favicons e o `og-image.jpg`.
+6. **Remova** do rodapé a linha "Site demonstrativo — nomes, contatos e imagens fictícios.".
 
 ## Informativo (blog)
 
@@ -96,8 +99,7 @@ cache longo para `/assets` e cabeçalhos de segurança.
 4. Opcional: troque um dos três cards da home (`index.html`, seção Informativo).
 5. Acrescente a URL em `sitemap.xml`.
 
-Os três artigos iniciais foram escritos a partir dos temas publicados no Instagram
-do escritório e devem ser revisados pela Dra. Maria antes da publicação.
+Os três artigos iniciais são textos de exemplo e devem ser revisados pelo advogado responsável antes da publicação.
 
 ## Formulário de contato
 
@@ -132,3 +134,12 @@ JavaScript.
 - **Cabeçalho e rodapé** são repetidos em cada página (sem build nem includes via
   JS, o que prejudicaria SEO e o funcionamento sem JavaScript). Ao alterar um
   deles, replique a mudança nas 9 páginas.
+
+## Créditos de imagens
+
+Fotos da [Unsplash](https://unsplash.com), sob a [Licença Unsplash](https://unsplash.com/license)
+(uso comercial gratuito):
+
+- `advogada.jpg` — Gruescu Ovidiu — https://unsplash.com/photos/fWjqkOnfkgE
+- `escritorio.jpg` — Brusk Dede — https://unsplash.com/photos/tjd5CfdDPRA
+- `congresso.jpg` — Headway — https://unsplash.com/photos/F2KRf_QfCqw

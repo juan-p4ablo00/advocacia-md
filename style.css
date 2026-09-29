@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Maria D'Ajuda Paulucio · Advocacia
-   Identidade: preto e dourado do monograma "MD" (Instagram oficial),
+   Helena Vasconcelos · Advocacia
+   Identidade: preto e dourado do monograma "HV",
    com azul-marinho e creme como apoio institucional.
    ========================================================================== */
 
@@ -130,7 +130,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .h2 + p { margin-top: 1.4rem; }
 .h2--narrow { max-width: 36rem; }
 
-/* Fio com losango — eco dos divisores do logotipo Carvalho & Paulucio */
+/* Fio com losango — eco dos divisores do logotipo Vasconcelos & Andrade */
 .rule {
   display: flex; align-items: center; gap: .8rem; color: var(--brass);
   margin-block: 2rem;

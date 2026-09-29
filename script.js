@@ -1,9 +1,9 @@
-/* Maria D'Ajuda Paulucio · Advocacia — comportamento do site.
+/* Helena Vasconcelos · Advocacia — comportamento do site.
    JavaScript puro, sem dependências. Cada bloco só roda se o elemento existir. */
 (function () {
   'use strict';
 
-  const WHATSAPP_NUMBER = '5594988131361';
+  const WHATSAPP_NUMBER = '5591900000000';
   const root = document.documentElement;
   root.classList.add('js');
 
